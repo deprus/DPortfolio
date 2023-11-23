@@ -4,10 +4,10 @@ export default function Hero() {
   return (
     <div className="h-1/2 w-full flex flex-col gap-5 pt-10">
       <Photo />
-      <h1 className="text-4xl text-white font-inter font-medium leading-12">
+      <h1 className="text-4xl text-white font-medium leading-12">
         Hey, I'm Denis
       </h1>
-      <p className="text-[#bfbfbf] font-inter leading-[1.6rem]">
+      <p className="text-[#bfbfbf] leading-[1.6rem]">
         An accomplished figure in the world of competitive backgammon who's now
         navigating the fascinating terrain of front-end development. From
         competing at the highest levels in backgammon, I've brought a strategic

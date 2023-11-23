@@ -3,7 +3,7 @@ import Project from "./Project";
 export default function Projects() {
   return (
     <div className="flex flex-col gap-5">
-      <h2 className="text-3.5xl text-white font-inter font-medium leading-[44.8px]">
+      <h2 className="text-3.5xl text-white font-medium leading-[44.8px]">
         Projects
       </h2>
       <div className="flex flex-col gap-10">

@@ -10,10 +10,10 @@ export default function GetInTouch() {
   const [textLink, setTextLink] = useState("Copy Email");
   return (
     <div className="flex flex-col gap-5 pb-10">
-      <h2 className="text-3.5xl text-white font-inter font-medium leading-[44.8px]">
+      <h2 className="text-3.5xl text-white font-medium leading-[44.8px]">
         Get in touch
       </h2>
-      <div className="flex flex-start font-inter gap-[10px]">
+      <div className="flex flex-start gap-[10px]">
         <div className="text-white text-1.5xl flex items-center justify-center font-medium">
           dpgodt@gmail.com
         </div>
@@ -25,7 +25,7 @@ export default function GetInTouch() {
               setTextLink("Copy Email");
             }, 1500);
           }}
-          className={`translate-x-2 copybtn transition duration-300 hover:bg-[#363636] inline-block px-[10px] py-[10px] bg-[#212121] rounded-md font-inter text-[#bfbfbf] leading-none`}
+          className={`translate-x-2 copybtn transition duration-300 hover:bg-[#363636] inline-block px-[10px] py-[10px] bg-[#212121] rounded-md text-[#bfbfbf] leading-none`}
         >
           <AnimatedTextCharacter text={textLink} />
         </button>

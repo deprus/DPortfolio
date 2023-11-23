@@ -3,7 +3,7 @@ import Scroller from "./Scroller";
 export default function Skills() {
   return (
     <div className="flex flex-col gap-5 ">
-      <h2 className="text-3.5xl text-white font-inter font-medium leading-[44.8px]">
+      <h2 className="text-3.5xl text-white font-medium leading-[44.8px]">
         Skills
       </h2>
       <Scroller />
