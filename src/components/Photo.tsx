@@ -1,7 +1,7 @@
 export default function Photo() {
   return (
     <img
-      src="/photo5.jpg"
+      src="/DPhoto.jpg"
       alt="photo"
       width={80}
       height={80}
