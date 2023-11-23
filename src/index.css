@@ -1,0 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.mask {
+    mask: linear-gradient(90deg, transparent, white 20%, white 80%, transparent);
+}
+
