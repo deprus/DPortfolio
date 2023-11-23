@@ -32,13 +32,12 @@ export default function Project({
         </div>
         <div>
           <a
-            href="{link}"
+            href={link}
             target="blank"
             rel="noopener noreferrer"
             className="inline-block rounded-md bg-[#212121] px-[15px] py-[10px] leading-[25.6px] text-white transition duration-300 hover:bg-[#363636]"
           >
-            {" "}
-            Explore{" "}
+            Explore
           </a>
         </div>
       </div>
