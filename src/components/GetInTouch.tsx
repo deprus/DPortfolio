@@ -10,11 +10,11 @@ export default function GetInTouch() {
   const [textLink, setTextLink] = useState("Copy Email");
   return (
     <div className="flex flex-col gap-5 pb-10">
-      <h2 className="text-3.5xl text-white font-medium leading-[44.8px]">
+      <h2 className="text-3.5xl font-medium leading-[44.8px] text-white">
         Get in touch
       </h2>
-      <div className="flex flex-start gap-[10px]">
-        <div className="text-white text-1.5xl flex items-center justify-center font-medium">
+      <div className="flex-start flex gap-[10px]">
+        <div className="text-1.5xl flex items-center justify-center font-medium text-white">
           dpgodt@gmail.com
         </div>
         <button
@@ -25,12 +25,12 @@ export default function GetInTouch() {
               setTextLink("Copy Email");
             }, 1500);
           }}
-          className={`translate-x-2 copybtn transition duration-300 hover:bg-[#363636] inline-block px-[10px] py-[10px] bg-[#212121] rounded-md text-[#bfbfbf] leading-none`}
+          className={`inline-block translate-x-2 rounded-md bg-[#212121] px-[10px] py-[10px] leading-none text-[#bfbfbf] transition duration-300 hover:bg-[#363636]`}
         >
           <AnimatedTextCharacter text={textLink} />
         </button>
       </div>
-      <div className="gap-2 flex">
+      <div className="flex gap-2">
         <IconContext.Provider value={{ color: "#A0A0A0", size: "1.5rem" }}>
           <SocialsButton link="https://t.me/dpgod">
             <SiTelegram />

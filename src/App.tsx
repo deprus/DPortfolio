@@ -5,8 +5,8 @@ import Skills from "./components/Skills";
 
 function App() {
   return (
-    <div className="bg-[#141414] md:flex md:justify-center md:items-center min-h-screen w-auto font-inter">
-      <div className="px-5 max-w-[53.75rem] flex flex-col gap-10">
+    <div className="font-inter min-h-screen w-auto bg-[#141414] md:flex md:items-center md:justify-center">
+      <div className="flex max-w-[53.75rem] flex-col gap-10 px-5">
         <Hero />
         <Skills />
         <Projects />

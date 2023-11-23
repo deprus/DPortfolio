@@ -5,7 +5,7 @@ export default function Photo() {
       alt="photo"
       width={80}
       height={80}
-      className="bg-gray-400 rounded-full h-20"
+      className="h-20 rounded-full bg-gray-400"
     />
   );
 }

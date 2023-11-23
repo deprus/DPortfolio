@@ -3,11 +3,11 @@ import Scroller from "./Scroller";
 export default function Skills() {
   return (
     <div className="flex flex-col gap-5 ">
-      <h2 className="text-3.5xl text-white font-medium leading-[44.8px]">
+      <h2 className="text-3.5xl font-medium leading-[44.8px] text-white">
         Skills
       </h2>
       <Scroller />
-      <ul className="text-[#bfbfbf] leading-[25.6px] list-disc px-5">
+      <ul className="list-disc px-5 leading-[25.6px] text-[#bfbfbf]">
         <li>HTML5</li>
         <li>CSS3</li>
         <li>Tailwind CSS</li>
