@@ -1,5 +1,6 @@
 type ProjectProps = {
-  link: string;
+  codeLink: string;
+  liveLink: string;
   img: string;
   heading: string;
   alt: string;
@@ -7,7 +8,8 @@ type ProjectProps = {
 };
 
 export default function Project({
-  link,
+  codeLink,
+  liveLink,
   img,
   heading,
   alt,
@@ -16,7 +18,7 @@ export default function Project({
   return (
     <div className="relative flex flex-col gap-5 lg:flex-row">
       <a
-        href={link}
+        href={liveLink}
         className="lg:w-[45%]"
         target="blank"
         rel="noopener noreferrer"
@@ -30,14 +32,22 @@ export default function Project({
           </h2>
           <div className="leading-[25.6px] text-[#bfbfbf]">{children}</div>
         </div>
-        <div>
+        <div className="flex gap-2">
           <a
-            href={link}
+            href={codeLink}
             target="blank"
             rel="noopener noreferrer"
             className="inline-block rounded-md bg-[#212121] px-[15px] py-[10px] leading-[25.6px] text-white transition duration-300 hover:bg-[#363636]"
           >
-            Explore
+            View code
+          </a>
+          <a
+            href={liveLink}
+            target="blank"
+            rel="noopener noreferrer"
+            className="inline-block rounded-md bg-[#212121] px-[15px] py-[10px] leading-[25.6px] text-white transition duration-300 hover:bg-[#363636]"
+          >
+            Live demo
           </a>
         </div>
       </div>
