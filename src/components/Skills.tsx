@@ -18,6 +18,7 @@ export default function Skills() {
         <li>TanStack Query (React Query)</li>
         <li>Zod</li>
         <li>React Hook Form</li>
+        <li>Node.js</li>
         <li>Next.js</li>
         <li>Vite</li>
         <li>Astro</li>

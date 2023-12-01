@@ -10,6 +10,7 @@ import { SiRedux } from "react-icons/si";
 import { SiReactquery } from "react-icons/si";
 import { SiZod } from "react-icons/si";
 import { SiReacthookform } from "react-icons/si";
+import { SiNodedotjs } from "react-icons/si";
 import { SiNextdotjs } from "react-icons/si";
 import { SiVite } from "react-icons/si";
 import { SiAstro } from "react-icons/si";
@@ -60,6 +61,9 @@ export default function Scroller() {
             <SiReacthookform />
           </li>
           <li>
+            <SiNodedotjs />{" "}
+          </li>
+          <li>
             <SiNextdotjs />
           </li>
           <li>
@@ -99,6 +103,9 @@ export default function Scroller() {
               </li>
               <li aria-hidden={true}>
                 <SiReacthookform />
+              </li>
+              <li aria-hidden={true}>
+                <SiNodedotjs />
               </li>
               <li aria-hidden={true}>
                 <SiNextdotjs />
