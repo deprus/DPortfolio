@@ -22,7 +22,7 @@ export default function Skills() {
         <li>Node.js</li>
         <li>Express</li>
         <li>Prisma</li>
-        <li>Next.js</li>
+        <li>Next.js 14</li>
         <li>Vite</li>
         <li>Astro</li>
       </ul>

@@ -30,7 +30,7 @@ export default function Projects() {
           </p>
           <p>
             Stack: Tailwind CSS, shadcn/ui, TypeScript, React, TanStack Query,
-            React Hook Form, Zod, Supabase, Next.js.
+            React Hook Form, Zod, Supabase, Next.js 14.
           </p>
         </Project>
         <Project
