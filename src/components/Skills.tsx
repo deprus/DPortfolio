@@ -14,11 +14,14 @@ export default function Skills() {
         <li>JavaScript</li>
         <li>TypeScript</li>
         <li>React</li>
-        <li>Redux</li>
+        <li>Redux Toolkit</li>
+        <li>React Router</li>
         <li>TanStack Query (React Query)</li>
         <li>Zod</li>
         <li>React Hook Form</li>
         <li>Node.js</li>
+        <li>Express</li>
+        <li>Prisma</li>
         <li>Next.js</li>
         <li>Vite</li>
         <li>Astro</li>

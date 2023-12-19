@@ -33,6 +33,23 @@ export default function Projects() {
             React Hook Form, Zod, Supabase, Next.js.
           </p>
         </Project>
+        <Project
+          heading={"Top100Books"}
+          codeLink="https://github.com/deprus/top100books"
+          liveLink={"https://top100books.vercel.app/"}
+          img={"/top100books.png"}
+          alt="Photo of Top100Books page"
+        >
+          <p>
+            JWT authentication and HTTP-Only cookies for secure user login.
+            Tagging books as 'Want to Read' or 'Mark to Read', with all data
+            stored on a MySQL (PlanetScale) database.
+          </p>
+          <p>
+            Stack: Tailwind CSS, TypeScript, React, Redux Toolkit, React Router,
+            Node.js, Express, Prisma, Vite.
+          </p>
+        </Project>
       </div>
     </div>
   );

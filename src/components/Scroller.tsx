@@ -7,10 +7,13 @@ import { SiJavascript } from "react-icons/si";
 import { SiTypescript } from "react-icons/si";
 import { SiReact } from "react-icons/si";
 import { SiRedux } from "react-icons/si";
+import { SiReactrouter } from "react-icons/si";
 import { SiReactquery } from "react-icons/si";
 import { SiZod } from "react-icons/si";
 import { SiReacthookform } from "react-icons/si";
 import { SiNodedotjs } from "react-icons/si";
+import { SiExpress } from "react-icons/si";
+import { SiPrisma } from "react-icons/si";
 import { SiNextdotjs } from "react-icons/si";
 import { SiVite } from "react-icons/si";
 import { SiAstro } from "react-icons/si";
@@ -52,6 +55,9 @@ export default function Scroller() {
             <SiRedux />
           </li>
           <li>
+            <SiReactrouter />
+          </li>
+          <li>
             <SiReactquery />
           </li>
           <li>
@@ -61,7 +67,13 @@ export default function Scroller() {
             <SiReacthookform />
           </li>
           <li>
-            <SiNodedotjs />{" "}
+            <SiNodedotjs />
+          </li>
+          <li>
+            <SiExpress />
+          </li>
+          <li>
+            <SiPrisma />
           </li>
           <li>
             <SiNextdotjs />
@@ -96,6 +108,9 @@ export default function Scroller() {
                 <SiRedux />
               </li>
               <li aria-hidden={true}>
+                <SiReactrouter />
+              </li>
+              <li aria-hidden={true}>
                 <SiReactquery />
               </li>
               <li aria-hidden={true}>
@@ -106,6 +121,12 @@ export default function Scroller() {
               </li>
               <li aria-hidden={true}>
                 <SiNodedotjs />
+              </li>
+              <li aria-hidden={true}>
+                <SiExpress />
+              </li>
+              <li aria-hidden={true}>
+                <SiPrisma />
               </li>
               <li aria-hidden={true}>
                 <SiNextdotjs />
